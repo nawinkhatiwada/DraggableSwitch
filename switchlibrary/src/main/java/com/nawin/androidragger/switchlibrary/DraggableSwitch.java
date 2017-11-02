@@ -137,9 +137,9 @@ public class DraggableSwitch extends CompoundButton {
         Resources res = getResources();
         float density = res.getDisplayMetrics().scaledDensity;
 
-        int textNormal = 0xff000000; //res.getColor(R.color.textNormal)
+        int textNormal = 0xffffffff; //res.getColor(R.color.textNormal)
         int textInvertedNormal = 0xffffffff; //res.getColor(R.color.textInvertedNormal);
-        int colorAccent = 0xffffcc00; //res.getColor(R.color.colorAccent)
+        int colorAccent = 0xffffffff; //res.getColor(R.color.colorAccent)
 
         mTextPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
         mTextPaint.density = res.getDisplayMetrics().density;
