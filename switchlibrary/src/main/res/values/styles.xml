@@ -13,7 +13,7 @@
         <item name="trackTextPadding">6dp</item>
         <item name="switchMinWidth">69dp</item>
         <item name="switchMinHeight">36dp</item>
-        <item name="switchPadding">6dp</item>
+        <!--<item name="switchPadding">6dp</item>-->
     </style>
 
     <style name="draggableTextAppearance">
@@ -27,7 +27,7 @@
 
         <style name="SwitchText">
             <item name="android:paddingLeft">8dp</item>
-            <item name="android:paddingBottom">8dp</item>
+            <!--<item name="android:paddingBottom">8dp</item>-->
             <item name="android:textColor">#ffffff</item>
             <item name="android:textSize">24sp</item>
             <item name="android:shadowColor">#BB000000</item>

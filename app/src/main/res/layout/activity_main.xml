@@ -12,7 +12,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        draggableSwitch:drawableOn="@drawable/bg_blue"
         draggableSwitch:textOff="Sashi"
         draggableSwitch:textOn="Nawin" />
 
