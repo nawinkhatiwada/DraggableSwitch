@@ -33,15 +33,12 @@ public class DraggableSwitch extends CompoundButton {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        if (baseDrawable != null)
-            baseDrawable.draw(canvas);
+        baseDrawable.draw(canvas);
     }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        if (baseDrawable != null) {
-            baseDrawable.setBounds(0, 0, View.MeasureSpec.getSize(widthMeasureSpec), View.MeasureSpec.getSize(heightMeasureSpec));
-        }
+        baseDrawable.setBounds(0, 0, View.MeasureSpec.getSize(widthMeasureSpec), View.MeasureSpec.getSize(heightMeasureSpec));
     }
 }
